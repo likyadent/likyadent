@@ -28,7 +28,7 @@ const WhyUs = () => {
                     setIsVisible(true);
                 }
             },
-            { threshold: 0.6 }
+            { threshold: 0.31 }
         );
 
         if (ref.current) observer.observe(ref.current);
@@ -43,7 +43,7 @@ const WhyUs = () => {
                     setIsVisible2(true);
                 }
             },
-            { threshold: 0.6 }
+            { threshold: 0.3 }
         );
 
         if (ref2.current) observer.observe(ref2.current);
@@ -58,7 +58,7 @@ const WhyUs = () => {
                     setIsVisible3(true);
                 }
             },
-            { threshold: 0.6 }
+            { threshold: 0.3 }
         );
 
         if (ref3.current) observer.observe(ref3.current);
