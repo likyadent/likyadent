@@ -1,0 +1,40 @@
+.toLeftClipPath{
+    background-position: center;
+    clip-path: polygon(35% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+
+
+.toRightClipPath{
+    background-position: center;
+    clip-path: polygon(0% 0, 65% 0, 100% 100%, 0% 100%);
+}
+
+.photo1{
+    background-image: url("../images/inside1.png");
+}
+
+.photo2{
+    background-image: url("../images/inside2.png");
+}
+
+
+/* .s1d1{
+    animation-name: s1d1;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+
+@media s1d1 {
+    from{
+        opacity: 0;
+        transform: translateX(-35px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+} */

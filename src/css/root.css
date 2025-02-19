@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Kaushan Script';
+    src: url('/fonts/KaushanScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Old Standard";
+    src: url('/fonts/OldStandardTT-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Inter";
+    src: url('/fonts/InterVariable.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.inter-500{
+    font-family: "Inter";
+}
+
+
+.inter-600{
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+.kaushan-500{
+    font-family: "Kaushan Script";
+}
+
+.old-standard-500{
+    font-family: 'Old Standard';
+}
+
+.open-sans-500{
+    font-family: "Open Sans";
+}
+  
