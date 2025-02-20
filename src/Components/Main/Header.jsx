@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <>
-      <div className={`fixed w-screen h-screen bg-transparent-black z-50 transition-all duration-300 ${modalOpen ? "block opacity-100" : "hidden opacity-0"}`}>
+      <div className={`fixed w-screen h-screen bg-transparent-black z-50 transition-all duration-300 ${modalOpen ? "block translate-x-0 opacity-100" : "w-[0px] translate-x-full opacity-0"}`}>
         <div className="bg-white relative end-0 w-full h-full z-50 flex flex-col items-end py-8 pe-5 gap-5">
           <a className="open-sans-500 text-4xl" href="#">HOME</a>
           <a className="open-sans-500 text-4xl" href="#">SERVICES</a>
