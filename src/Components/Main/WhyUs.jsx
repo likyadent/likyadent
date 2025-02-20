@@ -92,7 +92,7 @@ const WhyUs = () => {
                         <p className="old-standard-500 text-4xl sm:text-5xl">Professional Team.</p>
                         <p className="inter-500 mt-6 sm:text-start text-center text-sm sm:text-lg">Our team of highly trained professionals brings years of expertise, ensuring that you’re in safe hands throughout your dental journey.</p>
                     </div>
-                    <div className={`toLeftClipPath  bg-cover  sm:w-[600px] w-[340px] h-[150px] mt-4 sm:mt-0 sm:bg-local bg-fixed sm:h-[250px]  duration-2000 transition-all ${isVisible3 ? "opacity-100  transform-[translateX(0px)]" : "opacity-0   transform-[translateX(35px)]"}`}>
+                    <div className={`toLeftClipPath  bg-cover  sm:w-[600px] w-[320px] h-[150px] mt-4 sm:mt-0 sm:bg-local bg-fixed sm:h-[250px]  duration-2000 transition-all ${isVisible3 ? "opacity-100  transform-[translateX(0px)]" : "opacity-0   transform-[translateX(35px)]"}`}>
                         <Marquee>
                             <img src={Person1} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
                             <img src={Person2} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
