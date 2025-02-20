@@ -25,11 +25,11 @@ const Article = () => {
         <div className="bg-black-transparent-special h-full w-full">
             <div className="flex items-center justify-center h-full  pb-24">
                 <flex className="flex flex-col items-center justify-center gap-4 mt-24">
-                    <p className="old-standard-500 text-white text-2xl mb-4 welcomeAni1">WELCOME TO</p>
-                    <p className="old-standard-500 text-white text-9xl likyadentAni1">LikyaDent</p>
-                    <div className="flex items-center gap-5 mt-6">
-                        <button className="bg-white p-4 px-14 inter-500 text-xl rounded-xs rezButton1 hover:bg-amber-400 transition-all duration-300 hover:text-white hover:font-bold">REZERVATION</button>
-                        <button className="bg-white p-4 px-14 inter-500 text-xl rounded-xs learnButton2 hover:bg-amber-400 transition-all duration-300 hover:text-white">LEARN MORE</button>
+                    <p className="old-standard-500 text-white text-lg sm:text-2xl sm:mb-4 welcomeAni1">WELCOME TO</p>
+                    <p className="old-standard-500 text-white text-6xl sm:text-9xl likyadentAni1">LikyaDent</p>
+                    <div className="flex items-center gap-5 mt-2 sm:mt-6">
+                        <button className="bg-white px-4 py-2 sm:p-4 sm:px-14 inter-500 sm:text-xl rounded-sm sm:rounded-xs rezButton1 hover:bg-amber-400 transition-all duration-300 hover:text-white hover:font-bold">REZERVATION</button>
+                        <button className="bg-white px-4 py-2 sm:p-4 sm:px-14 inter-500 sm:text-xl rounded-sm sm:rounded-xs learnButton2 hover:bg-amber-400 transition-all duration-300 hover:text-white">LEARN MORE</button>
                     </div>
                 </flex>
             </div>

@@ -28,7 +28,7 @@ const WhyUs = () => {
                     setIsVisible(true);
                 }
             },
-            { threshold: 0.31 }
+            { threshold: 0.3 }
         );
 
         if (ref.current) observer.observe(ref.current);
@@ -68,38 +68,38 @@ const WhyUs = () => {
 
     return(
         <>
-            <div className="flex flex-col items-center py-12 gap-12 my-24">
-                <div className="flex items-center justify-between">
-                    <div ref={ref} className={`flex flex-col w-[600px] duration-2000 transition-all ${isVisible ? "opacity-100 transform-[translateX(0px)]" : "opacity-0 transform-[translateX(-35px)]"}`}>
-                        <p className="old-standard-500 text-5xl">Why Likya Dent?</p>
-                        <p className="inter-500 mt-6 text-lg w-[550px] text-start">In the healthcare field, there's no room for compromise. Everything must be precise and impeccably clean. <span className="inter-600">This is exactly what Likya Dent delivers.</span></p>
+            <div className="flex flex-col items-center py-12 gap-24 sm:gap-12 my-24">
+                <div className="flex xl:flex-row flex-col items-center justify-between">
+                    <div ref={ref} className={`flex flex-col w-full sm:w-[600px] duration-2000 transition-all ${isVisible ? "opacity-100 transform-[translateX(0px)]" : "opacity-0 transform-[translateX(-35px)]"}`}>
+                        <p className="old-standard-500 text-4xl sm:text-start text-center sm:text-5xl">Why Likya Dent?</p>
+                        <p className="inter-500 mt-6 text-sm sm:text-lg w-[320px] sm:w-[550px] text-center sm:text-start">In the healthcare field, there's no room for compromise. Everything must be precise and impeccably clean. <span className="inter-600">This is exactly what Likya Dent delivers.</span></p>
                     </div>
-                    <div className={`toLeftClipPath photo1 bg-cover w-[600px] h-[250px] me-auto duration-2000 transition-all  ${isVisible ? "opacity-100 transform-[translateX(0px)]" : "opacity-0 transform-[translateX(35px)]"}`}>
+                    <div className={`toLeftClipPath photo1 bg-cover sm:w-[600px] w-full h-[150px] mt-4 sm:mt-0 sm:bg-local bg-fixed sm:h-[250px] me-auto duration-2000 transition-all  ${isVisible ? "opacity-100 transform-[translateX(0px)]" : "opacity-0 transform-[translateX(35px)]"}`}>
 
                     </div>
                 </div>
-                <div className="flex flex-row-reverse items-center">
-                    <div ref={ref2} className={`flex flex-col w-[600px] items-end duration-2000 transition-all ${isVisible2 ? "opacity-100 transform-[translateX(0px)]" : "opacity-0 transform-[translateX(35px)]"}`}>
-                        <p className="old-standard-500 text-5xl">We care about you.</p>
-                        <p className="inter-500 mt-6 text-lg text-end ps-4">Patients should be greeted with the absolute best experience. They should always feel comfortable and at peace. <br /><span className="inter-600">Likya Dent delivers exactly that.</span></p>
+                <div className="flex xl:flex-row-reverse flex-col items-center">
+                    <div ref={ref2} className={`flex flex-col w-[320px] sm:w-[600px] items-center sm:items-end duration-2000 transition-all ${isVisible2 ? "opacity-100 transform-[translateX(0px)]" : "opacity-0 transform-[translateX(35px)]"}`}>
+                        <p className="old-standard-500 text-4xl sm:text-5xl">We care about you.</p>
+                        <p className="inter-500 mt-6 text-sm sm:text-lg text-center sm:text-end ps-4">Patients should be greeted with the absolute best experience. They should always feel comfortable and at peace. <br /><span className="inter-600">Likya Dent delivers exactly that.</span></p>
                     </div>
-                    <div className={`toRightClipPath photo2 bg-cover w-[600px] h-[250px] duration-2000 transition-all ${isVisible2 ? "opacity-100 transform-[translateX(0px)]" : "opacity-0 transform-[translateX(-35px)]"}`}>
+                    <div className={`toRightClipPath photo2 bg-cover sm:w-[600px] w-full h-[150px] mt-4 sm:mt-0 sm:bg-local bg-fixed sm:h-[250px] duration-2000 transition-all ${isVisible2 ? "opacity-100 transform-[translateX(0px)]" : "opacity-0 transform-[translateX(-35px)]"}`}>
 
                     </div>
                 </div>
-                <div className="flex items-center">
-                    <div ref={ref3} className={`flex flex-col w-[600px] duration-2000 transition-all ${isVisible3 ? "opacity-100 transform-[translateX(0px)]" : "opacity-0 transform-[translateX(-35px)]"}`}>
-                        <p className="old-standard-500 text-5xl">Professional Team.</p>
-                        <p className="inter-500 mt-6 text-lg">Our team of highly trained professionals brings years of expertise, ensuring that you’re in safe hands throughout your dental journey.</p>
+                <div className="flex  xl:flex-row flex-col  items-center">
+                    <div ref={ref3} className={`flex flex-col w-[320px] sm:items-start items-center sm:w-[600px] duration-2000 transition-all ${isVisible3 ? "opacity-100 transform-[translateX(0px)]" : "opacity-0 transform-[translateX(-35px)]"}`}>
+                        <p className="old-standard-500 text-4xl sm:text-5xl">Professional Team.</p>
+                        <p className="inter-500 mt-6 sm:text-start text-center text-sm sm:text-lg">Our team of highly trained professionals brings years of expertise, ensuring that you’re in safe hands throughout your dental journey.</p>
                     </div>
-                    <div className={`toLeftClipPath  bg-cover w-[600px] h-[250px] duration-2000 transition-all ${isVisible3 ? "opacity-100 transform-[translateX(0px)]" : "opacity-0 transform-[translateX(35px)]"}`}>
+                    <div className={`toLeftClipPath  bg-cover  sm:w-[600px] w-full h-[150px] mt-4 sm:mt-0 sm:bg-local bg-fixed sm:h-[250px]  duration-2000 transition-all ${isVisible3 ? "opacity-100 transform-[translateX(0px)]" : "opacity-0 transform-[translateX(35px)]"}`}>
                         <Marquee>
-                            <img src={Person1} className="object-bottom object-cover h-[250px]" alt="Likya Dent Staff's" />
-                            <img src={Person2} className="object-bottom object-cover h-[250px]" alt="Likya Dent Staff's" />
-                            <img src={Person3} className="object-bottom object-cover h-[250px]" alt="Likya Dent Staff's" />
-                            <img src={Person4} className="object-bottom object-cover h-[250px]" alt="Likya Dent Staff's" />
-                            <img src={Person5} className="object-bottom object-cover h-[250px]" alt="Likya Dent Staff's" />
-                            <img src={Person6} className="object-bottom object-cover h-[250px]" alt="Likya Dent Staff's" />
+                            <img src={Person1} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
+                            <img src={Person2} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
+                            <img src={Person3} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
+                            <img src={Person4} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
+                            <img src={Person5} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
+                            <img src={Person6} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
                         </Marquee>
                     </div>
                 </div>

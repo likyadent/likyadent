@@ -1,17 +1,18 @@
 import Logo from "../../images/logo.png";
 import "../../css/header.css";
+import Bar from "../../images/bar.svg"
 
 const Header = () => {
   return (
     <>
-      <div className="flex justify-between px-12 py-2 items-center fixed top-0 w-full headerAni z-30 bg-white">
-        <div className="flex flex-col">
-          <img src={Logo} className="w-[200px]" alt="LikyaDent Logo" />
-          <p className="kaushan-500 opacity-90 text-sm">
+      <div className="flex justify-between  px-6 sm:px-12 h-[100px] sm:py-2 items-center fixed top-0 w-full headerAni z-30 bg-white">
+        <div className="flex flex-col ">
+          <img src={Logo} className="w-[150px] sm:w-[200px]" alt="LikyaDent Logo" />
+          <p className="kaushan-500 opacity-90 text-xs sm:text-sm">
             Treating The Patient, Not Just The Smile.
           </p>
         </div>
-        <div className="flex gap-10 items-center mt-2 headerLinks">  
+        <div className="hidden   sm:flex gap-5 lg:gap-10 items-center mt-2 headerLinks">  
           <a href="#" className="old-standard-500 text-xl atick">HOME</a>
           <div className="flex flex-col relative group">
             <a href="#" className="old-standard-500 text-xl atick">
@@ -49,6 +50,9 @@ const Header = () => {
           <a href="#" className="old-standard-500 text-xl">OUR STAFF</a>
           <a href="#" className="old-standard-500 text-xl">GALLERY</a>
           <a href="#" className="old-standard-500 text-xl">CONTACT US</a>
+        </div>
+        <div className="sm:hidden flex items-center">
+          <img src={Bar} className="sm:hidden block invert w-[45px] " alt="Menu Bar" />
         </div>
       </div>
     </>
