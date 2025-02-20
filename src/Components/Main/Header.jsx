@@ -1,10 +1,24 @@
 import Logo from "../../images/logo.png";
 import "../../css/header.css";
 import Bar from "../../images/bar.svg"
+import { useState } from "react";
+import Close from "../../images/close.svg"
 
 const Header = () => {
+
+  const [modalOpen,setModalOpen] = useState(false);
+
   return (
     <>
+      <div className={`fixed w-screen h-screen bg-transparent-black z-50 transition-all duration-300 ${modalOpen ? "block opacity-100" : "hidden opacity-0"}`}>
+        <div className="bg-white relative end-0 w-full h-full z-50 flex flex-col items-end py-8 pe-5 gap-5">
+          <a className="open-sans-500 text-4xl" href="#">HOME</a>
+          <a className="open-sans-500 text-4xl" href="#">SERVICES</a>
+          <a className="open-sans-500 text-4xl" href="#">OUR STAFF</a>
+          <a className="open-sans-500 text-4xl" href="#">GALLERY</a>
+          <a className="open-sans-500 text-4xl" href="#">CONTACT US</a>
+        </div>
+      </div>
       <div className="flex justify-between  px-6 sm:px-12 h-[100px] sm:py-2 items-center fixed top-0 w-full headerAni z-30 bg-white">
         <div className="flex flex-col ">
           <img src={Logo} className="w-[150px] sm:w-[200px]" alt="LikyaDent Logo" />
@@ -52,7 +66,8 @@ const Header = () => {
           <a href="#" className="old-standard-500 text-xl">CONTACT US</a>
         </div>
         <div className="sm:hidden flex items-center">
-          <img src={Bar} className="sm:hidden block invert w-[45px] " alt="Menu Bar" />
+          <img src={Bar} onClick={() => setModalOpen(!modalOpen)} className={`sm:hidden block invert w-[40px] absolute transition-all duration-300 ${modalOpen ? "transform-[rotate(-90deg)] opacity-0" : "transform-[rotate(0deg)] opacity-100"}`} alt="Menu Bar" />
+          <img src={Close} onClick={() => setModalOpen(!modalOpen)} className={`sm:hidden block invert w-[40px] transition-all duration-300 ${modalOpen ? "transform-[rotate(-90deg)] opacity-100" : "transform-[rotate(0deg)] opacity-0"}`} alt="Close Menu Bar" />
         </div>
       </div>
     </>

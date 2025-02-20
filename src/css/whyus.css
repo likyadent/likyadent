@@ -3,7 +3,10 @@
     clip-path: polygon(35% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
-
+#whyUs {
+    scroll-margin-top: 120px; /* Header'ın yüksekliği kadar ayarla */
+  }
+  
 
 .toRightClipPath{
     background-position: center;

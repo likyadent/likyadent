@@ -34,9 +34,9 @@ const Article = () => {
                 </flex>
             </div>
         </div>
-        <div className="absolute bottom-0 mb-10 flex justify-center items-center w-full z-20">
+        <a href="#whyUs" className="absolute bottom-0 mb-10 flex justify-center items-center w-full z-20">
           <img src={Bottom} className="w-[35px] bottomAni" alt="Slide" />
-        </div>
+        </a>
     </div>
   );
 };
