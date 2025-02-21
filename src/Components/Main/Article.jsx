@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import "../../css/article.css";
-import img1 from "../../images/inside1.png";
-import img2 from "../../images/inside2.png";
+import img1 from "../../images/inside1.webp";
+import img2 from "../../images/inside2.webp";
 import img3 from "../../images/inside3.webp";
-import img4 from "../../images/main.png";
+import img4 from "../../images/main.webp";
 import Bottom from "../../images/bottom.svg"
 
 const Article = () => {
@@ -35,7 +35,7 @@ const Article = () => {
             </div>
         </div>
         <a href="#whyUs" className="absolute bottom-0 mb-10 flex justify-center items-center w-full z-20">
-          <img src={Bottom} className="w-[35px] bottomAni" alt="Slide" />
+          <img src={Bottom} loading="lazy" className="w-[35px] bottomAni" alt="Slide" />
         </a>
     </div>
   );

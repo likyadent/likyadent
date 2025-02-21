@@ -1,12 +1,12 @@
 import "../../css/whyus.css"
 import { useState,useEffect,useRef } from "react";
 import Marquee from "react-fast-marquee";
-import Person1 from "../../images/teams/person1.png"
-import Person2 from "../../images/teams/person2.png"
-import Person3 from "../../images/teams/person3.png"
-import Person4 from "../../images/teams/person4.png"
-import Person5 from "../../images/teams/person5.png"
-import Person6 from "../../images/teams/person6.png"
+import Person1 from "../../images/teams/person1.webp"
+import Person2 from "../../images/teams/person2.webp"
+import Person3 from "../../images/teams/person3.webp"
+import Person4 from "../../images/teams/person4.webp"
+import Person5 from "../../images/teams/person5.webp"
+import Person6 from "../../images/teams/person6.webp"
 
 
 
