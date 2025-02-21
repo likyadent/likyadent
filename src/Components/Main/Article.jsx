@@ -20,24 +20,44 @@ const Article = () => {
   }, []);
 
   return (
-    <div className="h-full-special relative w-full"> 
-        <div className="photo-container overflow-hidden"> {photos.map((photo, index) => ( <div key={index} className={`photo ${index === currentPhoto ? 'active transformInside' : ''}`} style={{ backgroundImage: `url(${photo})` }} /> ))} </div>
-        <div className="bg-black-transparent-special h-full w-full">
-            <div className="flex items-center justify-center h-full  pb-24">
-                <flex className="flex flex-col items-center justify-center gap-4 mt-24">
-                    <p className="old-standard-500 text-white text-lg sm:text-2xl sm:mb-4 welcomeAni1">WELCOME TO</p>
-                    <p className="old-standard-500 text-white text-6xl sm:text-9xl likyadentAni1">LikyaDent</p>
-                    <div className="flex items-center gap-5 mt-2 sm:mt-6">
-                        <button className="bg-white px-4 py-2 sm:p-4 sm:px-14 inter-500 sm:text-xl rounded-sm sm:rounded-xs rezButton1 hover:bg-amber-400 transition-all duration-300 hover:text-white hover:font-bold">REZERVATION</button>
-                        <button className="bg-white px-4 py-2 sm:p-4 sm:px-14 inter-500 sm:text-xl rounded-sm sm:rounded-xs learnButton2 hover:bg-amber-400 transition-all duration-300 hover:text-white">LEARN MORE</button>
-                    </div>
-                </flex>
+    <div className="h-full-special relative w-full">
+    <div className="photo-container overflow-hidden">
+        {photos.map((photo, index) => (
+            <div key={index} className={`photo ${index === currentPhoto ? 'active transformInside' : ''}`}>
+                <img 
+                    src={photo} 
+                    alt={`Photo ${index + 1}`} 
+                    className="w-full h-full object-cover" 
+                    width="1920" 
+                    height="1080" 
+                    loading="lazy"
+                />
+            </div>
+        ))}
+    </div>
+
+    <div className="bg-black-transparent-special h-full w-full">
+        <div className="flex items-center justify-center h-full pb-24">
+            <div className="flex flex-col items-center justify-center gap-4 mt-24">
+                <p className="old-standard-500 text-white text-lg sm:text-2xl sm:mb-4 welcomeAni1">WELCOME TO</p>
+                <p className="old-standard-500 text-white text-6xl sm:text-9xl likyadentAni1">LikyaDent</p>
+                <div className="flex items-center gap-5 mt-2 sm:mt-6">
+                    <button className="bg-white px-4 py-2 sm:p-4 sm:px-14 inter-500 sm:text-xl rounded-sm sm:rounded-xs rezButton1 hover:bg-amber-400 transition-all duration-300 hover:text-white hover:font-bold">
+                        RESERVATION
+                    </button>
+                    <button className="bg-white px-4 py-2 sm:p-4 sm:px-14 inter-500 sm:text-xl rounded-sm sm:rounded-xs learnButton2 hover:bg-amber-400 transition-all duration-300 hover:text-white">
+                        LEARN MORE
+                    </button>
+                </div>
             </div>
         </div>
-        <a href="#whyUs" className="absolute bottom-0 mb-10 flex justify-center items-center w-full z-20">
-          <img src={Bottom} loading="lazy" className="w-[35px] bottomAni" alt="Slide" />
-        </a>
     </div>
+
+    <a href="#whyUs" className="absolute bottom-0 mb-10 flex justify-center items-center w-full z-20">
+        <img src={Bottom} loading="lazy" className="w-[35px] bottomAni" alt="Slide" />
+    </a>
+</div>
+
   );
 };
 

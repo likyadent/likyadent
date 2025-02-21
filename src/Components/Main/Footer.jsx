@@ -1,5 +1,5 @@
 import "../../css/footer.css"
-import Logo from "../../images/fullBlackLogo.png"
+import Logo from "../../images/fullBlackLogo.webp"
 import Facebook from "../../images/facebook.svg"
 import Instagram from "../../images/instagram.svg"
 import Twitter from "../../images/twitter.svg"

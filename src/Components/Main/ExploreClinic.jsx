@@ -1,5 +1,4 @@
 import { useState,useEffect } from 'react';
-import ReactPlayer from 'react-player';
 import Inside6 from "../../images/inside6.webp"
 import Inside4 from "../../images/inside3.webp"
 import Inside5 from "../../images/inside5.webp"
@@ -17,7 +16,7 @@ const ExploreClinic = () => {
     const [height, setHeight] = useState("320px");
 
     useEffect(() => {
-        setHeight(window.innerWidth > 680 ? "320px" : "230px");
+        setHeight(window.innerWidth > 680 ? "350px" : "230px");
     }, []);
 
     const [photoIndex, setPhotoIndex] = useState(0);
@@ -39,7 +38,7 @@ const ExploreClinic = () => {
                     <p className="old-standard-500 text-2xl sm:text-start text-center sm:text-6xl">EXPLORE OUR CLINIC</p>
                     <p className="open-sans-500 sm:text-start text-center w-[320px] sm:w-[400px] lg:w-[730px]">Take a virtual tour of Likya Dent. Explore our modern clinic and comfortable environment, designed with your well-being in mind. See for yourself the care and attention that goes into every detail of your visit.</p>
                     <div className='rounded-lg'>
-                        <ReactPlayer url='https://youtu.be/FO3iVBuQx9w' loading="lazy" controls={true} width='100%' height={height}/>
+                        <iframe width="100%" height={height} src="https://www.youtube.com/embed/FO3iVBuQx9w?si=tIubwoCjVa8Zf8C1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div className='flex flex-col items-center gap-3'>

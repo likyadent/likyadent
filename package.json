@@ -10,9 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fancyapps/fancybox": "^3.5.7",
     "@tailwindcss/vite": "^4.0.6",
-    "fancybox": "^3.0.1",
     "photoswipe": "^5.4.4",
     "react": "^19.0.0",
     "react-background-slider": "^4.0.0",
