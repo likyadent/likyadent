@@ -6,6 +6,8 @@ import Inside1 from "../../images/inside1.webp"
 import Inside2 from "../../images/inside2.webp"
 import Inside3 from "../../images/inside3.webp"
 import Magnify from "../../images/magnify.svg"
+import Main from "../../images/main.webp"
+import Play from "../../images/play.svg"
 
 // PhotoSwipe için gerekli olan bileşen
 import { Gallery, Item } from "react-photoswipe-gallery";
@@ -16,7 +18,7 @@ const ExploreClinic = () => {
     const [height, setHeight] = useState("320px");
 
     useEffect(() => {
-        setHeight(window.innerWidth > 680 ? "350px" : "230px");
+        setHeight(window.innerWidth > 680 ? "560px" : "230px");
     }, []);
 
     const [photoIndex, setPhotoIndex] = useState(0);
@@ -37,8 +39,13 @@ const ExploreClinic = () => {
                 <div className="flex flex-col gap-4">
                     <p className="old-standard-500 text-2xl sm:text-start text-center sm:text-6xl">EXPLORE OUR CLINIC</p>
                     <p className="open-sans-500 sm:text-start text-center w-[320px] sm:w-[400px] lg:w-[730px]">Take a virtual tour of Likya Dent. Explore our modern clinic and comfortable environment, designed with your well-being in mind. See for yourself the care and attention that goes into every detail of your visit.</p>
-                    <div className='rounded-lg'>
-                        <iframe width="100%" height={height} src="https://www.youtube.com/embed/FO3iVBuQx9w?si=tIubwoCjVa8Zf8C1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div className='rounded-lg flex justify-center items-center'>
+                       <a href="https://www.youtube.com/watch?v=FO3iVBuQx9w" className='relative' height={height} target='_blank'>
+                            <img src={Main} width={`${window.innerWidth > 680 ? "730px" : "320px"}`} height={height} className='rounded-lg object-cover sm:h-[350px] h-[200px]' alt="Fethiye Likya Dent Hisarönü" />
+                            <div className='bg-white absolute  z-50 top-0 end-0 mt-3 me-3 rounded-sm'>
+                                <img src={Play}  className=' w-[45px] invert ' alt="Play Video" />
+                            </div>
+                       </a>
                     </div>
                 </div>
                 <div className='flex flex-col items-center gap-3'>
