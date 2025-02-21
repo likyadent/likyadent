@@ -15,42 +15,42 @@ const OurService = () => {
                 <Swiper spaceBetween={10} className="max-w-[98vw] " slidesPerView={3} modules={[Autoplay]} breakpoints={{140: { slidesPerView: 1 }, 768: { slidesPerView: 2 }, 1280: { slidesPerView: 3 }, }} autoplay={{ delay: 3000 }}>
                     <SwiperSlide className="flex justify-center">
                         <div className="flex flex-col gap-3 items-center w-[320px] sm:w-[420px]">
-                            <img src={Service1} className="w-[320px] sm:w-[420px]" alt="Root Canal Healt ENDODONTICS Likya Dent Services rounded-sm" />
+                            <img loading="lazy" src={Service1} className="w-[320px] sm:w-[420px]" alt="Root Canal Healt ENDODONTICS Likya Dent Services rounded-sm" />
                             <p className="text-xl sm:text-3xl old-standard-500">ENDODONTICS</p>
                             <p className="open-sans-500 text-start">Dişlerde endodontik tedavi (kanal tedavisi), dişin kök kanallarının temizlenmesi, şekillendirilmesi ve doldurulması işlemidir. Bu tür dişlerde tedavi daha zor olabilir çünkü kök kanallarına erişim ve çalışma alanı sınırlıdır.</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="flex flex-col gap-3 items-center w-[320px] sm:w-[420px]">
-                            <img src={Service1} className="w-[320px] sm:w-[420px]" alt="Root Canal Healt ENDODONTICS Likya Dent Services rounded-sm" />
+                            <img loading="lazy" src={Service1} className="w-[320px] sm:w-[420px]" alt="Root Canal Healt ENDODONTICS Likya Dent Services rounded-sm" />
                             <p className="text-xl sm:text-3xl old-standard-500">ENDODONTICS</p>
                             <p className="open-sans-500 text-start">Dişlerde endodontik tedavi (kanal tedavisi), dişin kök kanallarının temizlenmesi, şekillendirilmesi ve doldurulması işlemidir. Bu tür dişlerde tedavi daha zor olabilir çünkü kök kanallarına erişim ve çalışma alanı sınırlıdır.</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="flex flex-col gap-3 items-center w-[320px] sm:w-[420px]">
-                            <img src={Service1} className="w-[320px] sm:w-[420px]" alt="Root Canal Healt ENDODONTICS Likya Dent Services rounded-sm" />
+                            <img loading="lazy" src={Service1} className="w-[320px] sm:w-[420px]" alt="Root Canal Healt ENDODONTICS Likya Dent Services rounded-sm" />
                             <p className="text-xl sm:text-3xl old-standard-500">ENDODONTICS</p>
                             <p className="open-sans-500 text-start">Dişlerde endodontik tedavi (kanal tedavisi), dişin kök kanallarının temizlenmesi, şekillendirilmesi ve doldurulması işlemidir. Bu tür dişlerde tedavi daha zor olabilir çünkü kök kanallarına erişim ve çalışma alanı sınırlıdır.</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="flex flex-col gap-3 items-center w-[320px] sm:w-[420px]">
-                            <img src={Service1} className="w-[320px] sm:w-[420px]" alt="Root Canal Healt ENDODONTICS Likya Dent Services rounded-sm" />
+                            <img loading="lazy" src={Service1} className="w-[320px] sm:w-[420px]" alt="Root Canal Healt ENDODONTICS Likya Dent Services rounded-sm" />
                             <p className="text-xl sm:text-3xl old-standard-500">ENDODONTICS</p>
                             <p className="open-sans-500 text-start">Dişlerde endodontik tedavi (kanal tedavisi), dişin kök kanallarının temizlenmesi, şekillendirilmesi ve doldurulması işlemidir. Bu tür dişlerde tedavi daha zor olabilir çünkü kök kanallarına erişim ve çalışma alanı sınırlıdır.</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="flex flex-col gap-3 items-center w-[320px] sm:w-[420px]">
-                            <img src={Service1} className="w-[320px] sm:w-[420px]" alt="Root Canal Healt ENDODONTICS Likya Dent Services rounded-sm" />
+                            <img loading="lazy" src={Service1} className="w-[320px] sm:w-[420px]" alt="Root Canal Healt ENDODONTICS Likya Dent Services rounded-sm" />
                             <p className="text-xl sm:text-3xl old-standard-500">ENDODONTICS</p>
                             <p className="open-sans-500 text-start">Dişlerde endodontik tedavi (kanal tedavisi), dişin kök kanallarının temizlenmesi, şekillendirilmesi ve doldurulması işlemidir. Bu tür dişlerde tedavi daha zor olabilir çünkü kök kanallarına erişim ve çalışma alanı sınırlıdır.</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="flex flex-col gap-3 items-center w-[320px] sm:w-[420px]">
-                            <img src={Service1} className="w-[320px] sm:w-[420px]" alt="Root Canal Healt ENDODONTICS Likya Dent Services rounded-sm" />
+                            <img loading="lazy" src={Service1} className="w-[320px] sm:w-[420px]" alt="Root Canal Healt ENDODONTICS Likya Dent Services rounded-sm" />
                             <p className="text-xl sm:text-3xl old-standard-500">ENDODONTICS</p>
                             <p className="open-sans-500 text-start">Dişlerde endodontik tedavi (kanal tedavisi), dişin kök kanallarının temizlenmesi, şekillendirilmesi ve doldurulması işlemidir. Bu tür dişlerde tedavi daha zor olabilir çünkü kök kanallarına erişim ve çalışma alanı sınırlıdır.</p>
                         </div>

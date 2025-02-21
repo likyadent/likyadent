@@ -58,6 +58,7 @@ const ExploreClinic = () => {
                                             ref={ref}
                                             onClick={open}
                                             src={image.src}
+                                            loading='lazy'
                                             className='w-[268px] h-[150px] object-cover rounded-sm'
                                             alt={`Likya Dent Clinic ${index + 1}`}
                                         />
@@ -84,6 +85,7 @@ const ExploreClinic = () => {
                                         <img
                                             ref={ref}
                                             onClick={open}
+                                            loading='lazy'
                                             src={image.src}
                                             className={`w-[320px] sm:w-[560px] h-[200px] sm:h-[350px] rounded-sm object-cover ${image.src != Inside5 ? "hidden" : "Ok"}`}
                                             alt={`Likya Dent Clinic ${index + 1}`}
