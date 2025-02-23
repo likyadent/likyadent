@@ -7,7 +7,5 @@ import { visualizer } from 'rollup-plugin-visualizer';
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss(), purgecss({
-    content: ['./index.html', './src/**/*.jsx', './src/**/*.tsx'], 
-  }),visualizer({ open: true }), ],
+  plugins: [react(), tailwindcss(),],
 })
