@@ -5,6 +5,8 @@ import img2 from "../../images/inside2.webp";
 import img3 from "../../images/inside3.webp";
 import img4 from "../../images/main.webp";
 import Bottom from "../../images/bottom.svg"
+import { Helmet } from "react-helmet-async";
+
 
 const Article = () => {
   const [currentPhoto, setCurrentPhoto] = useState(0);
@@ -20,7 +22,11 @@ const Article = () => {
   }, []);
 
   return (
+    
     <div className="h-full-special relative w-full">
+        <Helmet>
+            <link rel="preload" as="image" href={img4} type="image/webp" />
+        </Helmet>
     <div className="photo-container overflow-hidden">
         {photos.map((photo, index) => (
             <div key={index} className={`photo ${index === currentPhoto ? 'active transformInside' : ''}`}>
@@ -30,7 +36,6 @@ const Article = () => {
                     className="w-full h-full object-cover" 
                     width="1920" 
                     height="1080" 
-                    loading="lazy"
                 />
             </div>
         ))}
