@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex flex-col sm:items-start items-center bg-black-special-footer p-8">
                 <div className="flex sm:flex-row flex-col sm:w-full  sm:justify-between gap-12 sm:gap-4">
                     <div className="flex flex-col">
-                        <img loading="lazy" src={Logo} className="invert w-[300px]" alt="Likya Dent Logo" />
+                        <img loading="lazy" src={Logo} width={"300px"} height={"150px"} className="invert w-[300px]" alt="Likya Dent Logo" />
                         <p className="kaushan-500 text-white">Treating The Patient, Not Just Smile.</p>
                     </div>
                     <div className="flex flex-col">
@@ -67,10 +67,10 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex justify-end mt-16 sm:mt-8 mb-3 gap-3">
-                    <img loading="lazy" className="w-[45px]" src={Facebook} alt="Facebook" />
-                    <img loading="lazy" className="w-[45px]" src={Instagram} alt="Instagram" />
-                    <img loading="lazy" className="w-[45px]" src={Youtube} alt="YouTube" />
-                    <img loading="lazy" className="w-[45px]" src={Twitter} alt="Twitter" />
+                    <img loading="lazy" width={"45px"} height={"45px"} className="w-[45px]" src={Facebook} alt="Facebook" />
+                    <img loading="lazy" width={"45px"} height={"45px"} className="w-[45px]" src={Instagram} alt="Instagram" />
+                    <img loading="lazy" width={"45px"} height={"45px"} className="w-[45px]" src={Youtube} alt="YouTube" />
+                    <img loading="lazy" width={"45px"} height={"45px"} className="w-[45px]" src={Twitter} alt="Twitter" />
                 </div>
             </div>  
         </>

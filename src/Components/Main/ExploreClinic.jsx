@@ -67,6 +67,8 @@ const ExploreClinic = () => {
                                             loading='lazy'
                                             className='w-[268px] h-[150px] object-cover rounded-sm'
                                             alt={`Likya Dent Clinic ${index + 1}`}
+                                            width={"268px"}
+                                            height={"150px"}
                                         />
                                     )}
                                 </Item>
@@ -75,7 +77,7 @@ const ExploreClinic = () => {
                     </div>
                     <div className='relative'>
                         <div className="absolute end-0 mt-3 me-3 rounded-sm bg-white">
-                            <img src={Magnify} className='invert p-2  w-[45px] ' alt="Magnify" />
+                            <img src={Magnify} width={"45px"} height={"45px"} className='invert p-2  w-[45px] ' alt="Magnify" />
                         </div>
                         <Gallery>
                             {images.map((image, index) => (
@@ -93,6 +95,8 @@ const ExploreClinic = () => {
                                             onClick={open}
                                             loading='lazy'
                                             src={image.src}
+                                            width={"320px"}
+                                            height={"200px"}
                                             className={`w-[320px] sm:w-[560px] h-[200px] sm:h-[350px] rounded-sm object-cover ${image.src != Inside5 ? "hidden" : "Ok"}`}
                                             alt={`Likya Dent Clinic ${index + 1}`}
                                         />

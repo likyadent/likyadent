@@ -59,7 +59,7 @@ const Article = () => {
     </div>
 
     <a href="#whyUs" className="absolute bottom-0 mb-10 flex justify-center items-center w-full z-20">
-        <img src={Bottom} loading="lazy" className="w-[35px] bottomAni" alt="Slide" />
+        <img src={Bottom} width={"35px"} height={"35px"} loading="lazy" className="w-[35px] bottomAni" alt="Slide" />
     </a>
 </div>
 
