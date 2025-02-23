@@ -64,7 +64,7 @@ const Header = () => {
             </div>
           </div>
           <a href="#" className="old-standard-500 text-xl">OUR STAFF</a>
-          <a href="#" className="old-standard-500 text-xl">GALLERY</a>
+          <a href="#" className="old-standard-500 text-xl">BLOG</a>
           <a href="#" className="old-standard-500 text-xl">CONTACT US</a>
         </div>
         <div className="xl:hidden flex items-center">
