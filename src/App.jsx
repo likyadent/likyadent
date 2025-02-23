@@ -1,11 +1,15 @@
 import Main from "./Components/Main/Main"
 import "../src/css/root.css"
+import { HelmetProvider } from "react-helmet-async";
+
 
 function App() {
 
   return (
     <>
-      <Main />      
+      <HelmetProvider>
+        <Main />      
+      </HelmetProvider>
     </>
   )
 }

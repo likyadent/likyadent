@@ -16,6 +16,7 @@
     "react-background-slider": "^4.0.0",
     "react-dom": "^19.0.0",
     "react-fast-marquee": "^1.6.5",
+    "react-helmet-async": "^2.0.5",
     "react-image-lightbox": "^5.1.4",
     "react-photoswipe-gallery": "^3.0.2",
     "react-responsive-carousel": "^3.2.23",
