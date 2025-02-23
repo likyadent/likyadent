@@ -29,6 +29,7 @@ const Header = () => {
         </div>
         <div className="hidden   sm:flex gap-5 lg:gap-10 items-center mt-2 headerLinks">  
           <a href="#" className="old-standard-500 text-xl atick">HOME</a>
+          <a href="#" className="old-standard-500 text-xl atick">REZERVATION</a>
           <div className="flex flex-col relative group">
             <a href="#" className="old-standard-500 text-xl atick">
               SERVICES
