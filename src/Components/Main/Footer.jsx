@@ -9,7 +9,7 @@ const Footer = () => {
     return(
         <>
             <div className="flex flex-col sm:items-start items-center bg-black-special-footer p-8">
-                <div className="flex sm:flex-row flex-col  sm:justify-between gap-12 sm:gap-4">
+                <div className="flex sm:flex-row flex-col sm:w-full  sm:justify-between gap-12 sm:gap-4">
                     <div className="flex flex-col">
                         <img loading="lazy" src={Logo} className="invert w-[300px]" alt="Likya Dent Logo" />
                         <p className="kaushan-500 text-white">Treating The Patient, Not Just Smile.</p>
