@@ -20,14 +20,14 @@ const Header = () => {
           <a className="open-sans-500 text-4xl" href="#">CONTACT US</a>
         </div>
       </div>
-      <div className="flex justify-between  px-6 sm:px-12 h-[100px] sm:py-2 items-center fixed top-0 w-full headerAni z-30 bg-white">
+      <div className="flex justify-between  px-6 sm:px-12 h-[100px] xl:py-2 items-center fixed top-0 w-full headerAni z-30 bg-white">
         <div className="flex flex-col ">
           <img src={Logo} width={"150px"} height={"200px"} className="w-[150px] sm:w-[200px]" alt="LikyaDent Logo" />
           <p className="kaushan-500 opacity-90 text-xs sm:text-sm">
             Treating The Patient, Not Just The Smile.
           </p>
         </div>
-        <div className="hidden   sm:flex gap-5 lg:gap-10 items-center mt-2 headerLinks">  
+        <div className="hidden   xl:flex gap-5 lg:gap-10 items-center mt-2 headerLinks">  
           <a href="#" className="old-standard-500 text-xl atick">HOME</a>
           <a href="#" className="old-standard-500 text-xl atick">REZERVATION</a>
           <div className="flex flex-col relative group">
@@ -67,9 +67,9 @@ const Header = () => {
           <a href="#" className="old-standard-500 text-xl">GALLERY</a>
           <a href="#" className="old-standard-500 text-xl">CONTACT US</a>
         </div>
-        <div className="sm:hidden flex items-center">
-          <img src={Bar} width={"40px"} height={"40px"} onClick={() => setModalOpen(!modalOpen)} className={`sm:hidden block invert w-[40px] absolute transition-all duration-300 ${modalOpen ? "transform-[rotate(-90deg)] opacity-0" : "transform-[rotate(0deg)] opacity-100"}`} alt="Menu Bar" />
-          <img src={Close} width={"40px"} height={"40px"} onClick={() => setModalOpen(!modalOpen)} className={`sm:hidden block invert w-[40px] transition-all duration-300 ${modalOpen ? "transform-[rotate(-90deg)] opacity-100" : "transform-[rotate(0deg)] opacity-0"}`} alt="Close Menu Bar" />
+        <div className="xl:hidden flex items-center">
+          <img src={Bar} width={"40px"} height={"40px"} onClick={() => setModalOpen(!modalOpen)} className={`xl:hidden block invert w-[40px] absolute transition-all duration-300 ${modalOpen ? "transform-[rotate(-90deg)] opacity-0" : "transform-[rotate(0deg)] opacity-100"}`} alt="Menu Bar" />
+          <img src={Close} width={"40px"} height={"40px"} onClick={() => setModalOpen(!modalOpen)} className={`xl:hidden block invert w-[40px] transition-all duration-300 ${modalOpen ? "transform-[rotate(-90deg)] opacity-100" : "transform-[rotate(0deg)] opacity-0"}`} alt="Close Menu Bar" />
         </div>
       </div>
     </>
