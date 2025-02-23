@@ -9,6 +9,7 @@
     src: url('/fonts/KaushanScript-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face{
@@ -16,6 +17,7 @@
     src: url('/fonts/OldStandardTT-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face{
@@ -23,6 +25,7 @@
     src: url('/fonts/InterVariable.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face{
@@ -30,6 +33,7 @@
     src: url("/fonts/OpenSans-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 .inter-500{

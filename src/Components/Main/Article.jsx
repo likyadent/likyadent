@@ -26,6 +26,10 @@ const Article = () => {
     <div className="h-full-special relative w-full">
         <Helmet>
             <link rel="preload" as="image" href={img4} type="image/webp" />
+            <link rel="preload" as="image" href={img1} type="image/webp" />
+            <link rel="preload" as="image" href={img2} type="image/webp" />
+            <link rel="preload" as="image" href={img3} type="image/webp" />
+
         </Helmet>
     <div className="photo-container overflow-hidden">
         {photos.map((photo, index) => (

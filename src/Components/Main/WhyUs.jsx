@@ -94,12 +94,12 @@ const WhyUs = () => {
                     </div>
                     <div className={`toLeftClipPath  bg-cover  sm:w-[600px] w-[320px] h-[150px] mt-4 sm:mt-0  sm:h-[250px]  duration-2000 transition-all ${isVisible3 ? "opacity-100 transform-[translateY(0px)] sm:transform-[translateX(0px)]" : "opacity-0   transform-[translateY(-25px)] sm:transform-[translateX(35px)]"}`}>
                         <Marquee>
-                            <img src={Person1} loading="lazy" className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
-                            <img src={Person2} loading="lazy" className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
-                            <img src={Person3} loading="lazy" className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
-                            <img src={Person4} loading="lazy" className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
-                            <img src={Person5} loading="lazy" className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
-                            <img src={Person6} loading="lazy" className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
+                            <img src={Person1} loading="lazy" width={"168px"} height={"150px"} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
+                            <img src={Person2} loading="lazy" width={"168px"} height={"150px"} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
+                            <img src={Person3} loading="lazy" width={"168px"} height={"150px"} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
+                            <img src={Person4} loading="lazy" width={"168px"} height={"150px"} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
+                            <img src={Person5} loading="lazy" width={"168px"} height={"150px"} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
+                            <img src={Person6} loading="lazy" width={"168px"} height={"150px"} className="object-bottom object-cover h-[150px] sm:h-[250px]" alt="Likya Dent Staff's" />
                         </Marquee>
                     </div>
                 </div>
